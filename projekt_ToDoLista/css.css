@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: #dbb0efd4;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    width: 650px;
+    background-attachment: fixed;
+    height: 1000px;
+   
+}
+
+.alltext{
+  position: relative;
+  left: 59%;
+  top: 98px;
+}
+
+.todoList{
+    text-align: center;
+    background-color: #ebd0ffbd;
+    padding: 15px;
+    width: 450px;
+    border: 10px double rgb(127, 11, 150);
+    border-radius: 7x;
+}
+
+.text1{
+    color: rgb(16, 16, 16);
+    line-height: -2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
+.text2{
+    font-style : oblique;
+    color: #f3f0f5;
+    font-size: small;
+}
+#text3{
+    color: #181934;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#text4{
+    padding: 10px;
+}
+
+
+.day{
+    color:#181934;
+    font-style: oblique;
+    font-weight:300;
+    margin: 2px;
+}
+
+.list{
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 15px;
+    width: 450px;
+    border: 10px double rgb(127, 11, 150);
+    border-radius: 7px;
+    margin-top: 7px;
+    
+}
+
+.add{
+    border-style: inherit;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: rgba(250, 245, 251, 0.829);
+    box-shadow: 0 0 0 2px rgb(255, 255, 255);
+    width: 85px;
+    margin-bottom: 15px;
+
+}
+
+.add:hover {
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #d7d1d1,#9d9a9d);
+}
+
+.add:active {
+    background: #7e7e7e;
+    transform: translate(0em, 0,1em);
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    list-style: none;
+    word-break: break-all;
+    width: 299px;
+    margin-left: -25px;
+    padding: 8px 8px;
+    
+}
+
+li .btn{
+    display: inline-block;
+    position:absolute;
+    padding-left: 320px; 
+    margin:10px;     
+}
+
+.btn1{
+    display: none;
+    padding-left: -250px;
+    
+}
+
+.edit, .done, .delete{
+    float: left;
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px; 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-color: rgba(255, 255, 255, 0.829);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    width: 28px;
+    height: 28px;
+    padding: 2px 2px;
+}
+
+.edit{
+    width: 45px;
+}
+.input{
+    border-radius: 10px;
+    border-style:inherit;
+    width: 400px;
+    height: 80px; 
+    margin:25px;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #e2e2e2;
+}
+
+.error{
+    font-style: italic;
+    color: #181934;
+    margin-bottom: 20px;
+}
+
+#doEdit{
+    background-color: rgb(248, 250, 252);
+    display:none;
+    width: 480px;
+    text-align: center;
+    align-items: center;
+    height: 190px;
+    border-radius: 20px;
+    margin-top: 30px;  
+    padding-top: 30px;     
+}
+ 
+.inputEditTask{
+     width: 340px;
+     height: 50px;
+     text-align: start;
+}
+.yesNo {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 20px;
+   
+}
+
+.doOk{
+    border-style: inherit;
+    border-radius: 5px;
+    padding: 4px 5px;
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 0 0 0 2px rgb(85, 86, 87);
+    width: 85px;
+}
+
+.doNo{
+    border-style: inherit;
+    border-radius: 5px;
+    padding: 4px 5px;
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 0 0 0 2px rgb(85, 86, 87);
+    width: 85px;
+}
+
+.doNo:hover{
+    background-color: rgb(167, 169, 170);
+}
+
+.doOk:hover{
+    background-color:rgb(167, 169, 170);
+}
+
+.doNo:active {
+    background:#c3c5c6;
+    transform: translate(0em, 0,1em)
+}
+
+.doOk:active {
+    background:#c3c5c6;
+    transform: translate(0em, 0,1em)
+}
+
+.edit-info{
+    font-style: italic;
+    color: rgba(251, 20, 20, 0.699);
+}
+.zalatwiono{
+    text-decoration: line-through;   
+    
+}
+
+ul{
+    list-style: none;
+}
+
+  
+  
+  
+  
+  

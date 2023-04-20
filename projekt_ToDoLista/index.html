@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta chartes="uft-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ='keywords' content = 'to do list, task, days plan '>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://kit.fontawesome.com/df88dd0bec.js" crossorigin="anonymous"></script>
+</head>
+<title>lista zadań</title>
+<div class="alltext">
+    <div class="todoList">
+        <p class="text1">Moja TO DO Lista<br><span class="text2"> ~ zorganizuj swoje życie ~</span></p>
+        <p class="day"></p>
+        <input class="input" type="text" placeholder="Wpisz zadanie">
+        <p class="error"></p>
+        <button class="add">Dodaj <i class="fa-solid fa-circle-plus"></i></button>
+    </div>
+        <div class="list">
+            <p id="text3">Lista zadań</p>
+            <ul>
+                <li>
+                    <div class="btn1">
+                    <button class="done"><i class="✓"></i></button>
+                    <button class="'edit">EDIT</button>
+                    <button class="delete"><i class="✕"></i></button> 
+                </div>
+            </li>
+
+                <p class="noTask"></p>
+            </ul>
+        </div>
+        <div id="doEdit">
+            <p id="text4">Edytuj zadanie</p>
+            <p class="edit-info"></p>
+            <input class="inputEditTask" type="text" placeholder="wpisz nową treść">
+            <div class="yesNo">
+                <button class="doOk">Zatwierdź</button>
+                <button class="doNo">Anuluj</button>  
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
