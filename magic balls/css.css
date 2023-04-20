@@ -1,0 +1,69 @@
+body{
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    
+}
+.text{
+    color: beige;
+    display: block;
+    text-align: center;   
+}
+.h3{
+    font-size: 40px;
+    font-style: italic;
+}
+.p1{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.p2{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+.p3{
+    color: beige;
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;  
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 300px;  
+}
+
+img:hover{
+    cursor: pointer;  
+}
+
+input{
+    width: 600px;
+    height: 50px;
+}
+
+input::placeholder{
+    font-style: italic;
+    background: linear-gradient(135deg, #5e12bc7e 20%, #ea0efa98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.shake-animation:hover {
+transition: 0.6s;
+transform:rotate(360deg);
+}
